@@ -22,7 +22,7 @@ authors:
   - family-names: Spiliotis
     given-names: "Elias T."
 license: MIT
-repository-code: "https://github.com/<OWNER>/<REPO>"   # TODO: set after creating the repo
+repository-code: "https://github.com/spiliotislab/sept9-gsk3-phosphoswitch-code"
 version: "1.0.0"
 date-released: "2026-01-01"                              # TODO: set to your release date
 # TODO: after minting a Zenodo DOI for the release, add it here:
