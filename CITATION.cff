@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both the software and the paper below."
+title: "Analysis code for Alam et al. — Septin crosstalk with microtubules and actin regulated by a GSK3-dependent phosphoswitch"
+type: software
+authors:
+  - family-names: Alam
+    given-names: "Md Noor A."
+  - family-names: Holt
+    given-names: "TrishaJean C."
+  - family-names: Schaefer
+    given-names: "Andrew W."
+  - family-names: Mayca-Pozo
+    given-names: Franklin
+  - family-names: Reghunathan
+    given-names: Sarath
+  - family-names: Butts
+    given-names: "Sarah M."
+  - family-names: Bhakt
+    given-names: Priyanka
+  - family-names: Kesisova
+    given-names: "Ilona A."
+  - family-names: Spiliotis
+    given-names: "Elias T."
+license: MIT
+repository-code: "https://github.com/<OWNER>/<REPO>"   # TODO: set after creating the repo
+version: "1.0.0"
+date-released: "2026-01-01"                              # TODO: set to your release date
+# TODO: after minting a Zenodo DOI for the release, add it here:
+# doi: "10.5281/zenodo.XXXXXXX"
+preferred-citation:
+  type: article
+  title: "Septin crosstalk with microtubules and actin is regulated by a GSK3-dependent phosphoswitch"
+  authors:
+    - family-names: Alam
+      given-names: "Md Noor A."
+    - family-names: Holt
+      given-names: "TrishaJean C."
+    - family-names: Schaefer
+      given-names: "Andrew W."
+    - family-names: Mayca-Pozo
+      given-names: Franklin
+    - family-names: Reghunathan
+      given-names: Sarath
+    - family-names: Butts
+      given-names: "Sarah M."
+    - family-names: Bhakt
+      given-names: Priyanka
+    - family-names: Kesisova
+      given-names: "Ilona A."
+    - family-names: Spiliotis
+      given-names: "Elias T."
+  year: 2026            # TODO: update to the publication year
+  # journal: ""         # TODO: add journal, volume, doi when known
+  # doi: ""

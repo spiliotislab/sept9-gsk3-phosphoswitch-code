@@ -1,0 +1,18 @@
+# Python 3.11+ (developed and tested on 3.14, Windows 11)
+# Minimum versions below install cleanly across environments; the exact versions used for the
+# published analysis were: numpy 2.4.4, scipy 1.17.11, scikit-image 0.26.0, pandas 3.0.2,
+# tifffile 2026.4.11, nd2 0.11.3, matplotlib 3.10.8.
+numpy>=1.24
+scipy>=1.10
+scikit-image>=0.20
+pandas>=2.0
+matplotlib>=3.7
+tifffile>=2023.7.10
+nd2>=0.7                 # reading Nikon .nd2 stacks (U2OS 3D, channel checks)
+openpyxl>=3.1            # Prism/Excel workbooks
+python-docx>=1.1         # methods documents
+trackpy>=0.6            # EB1 comet detection/tracking (arm 02)
+roifile>=2024.1         # reading ImageJ centrosome ROI .zip sets (arm 02)
+# optional — preprocessing:  careamics   # Noise2Void2 denoise
+# optional — 3D rendering:    pyvista, vtk
+# optional — GPU:             cupy-cuda12x   # 3D Frangi / morphology acceleration (sept9_mt_coloc_3d.py)

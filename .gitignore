@@ -1,0 +1,35 @@
+# ── Generated working outputs (recreated by reproduce_*.py; never commit) ──
+outputs/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ── OS / editor cruft ──
+.DS_Store
+Thumbs.db
+._*
+*~
+.vscode/
+.idea/
+
+# ── Large image / movie / cache data (kept in the data repository + lab archive, NOT GitHub) ──
+# The small processed tables under each arm's data/ (*.csv, *.xlsx) ARE committed — they are not matched here.
+*.nd2
+*.tif
+*.tiff
+*.ome.tif
+*.czi
+*.lsm
+*.h5
+*.npy
+*.npz
+*.mp4
+*.avi
+*.mov
+*.pptx
