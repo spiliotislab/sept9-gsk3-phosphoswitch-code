@@ -3,7 +3,7 @@
   "title": "Analysis code for Alam et al. — Septin crosstalk with microtubules and actin regulated by a GSK3-dependent phosphoswitch",
   "version": "1.0.0",
   "access_right": "open",
-  "license": "MIT",
+  "license": "mit",
   "creators": [
     { "name": "Alam, Md Noor A." },
     { "name": "Holt, TrishaJean C." },
