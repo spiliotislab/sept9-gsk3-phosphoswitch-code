@@ -1,0 +1,33 @@
+{
+  "upload_type": "software",
+  "title": "Analysis code for Alam et al. — Septin crosstalk with microtubules and actin regulated by a GSK3-dependent phosphoswitch",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    { "name": "Alam, Md Noor A." },
+    { "name": "Holt, TrishaJean C." },
+    { "name": "Schaefer, Andrew W." },
+    { "name": "Mayca-Pozo, Franklin" },
+    { "name": "Reghunathan, Sarath" },
+    { "name": "Butts, Sarah M." },
+    { "name": "Bhakt, Priyanka" },
+    { "name": "Kesisova, Ilona A." },
+    { "name": "Spiliotis, Elias T." }
+  ],
+  "keywords": [
+    "septin",
+    "SEPT9",
+    "microtubules",
+    "actin",
+    "GSK3",
+    "phosphoswitch",
+    "CHIR99021",
+    "colocalization",
+    "Manders coefficient",
+    "EB1 comet tracking",
+    "growth cone",
+    "fluorescence microscopy"
+  ],
+  "description": "Custom Python analysis code for Alam et al., \"Septin crosstalk with microtubules and actin is regulated by a GSK3-dependent phosphoswitch.\" The code is organized into five self-contained arms, each with its own README, code/, and processed data/ tables where applicable; install once from requirements.txt, with no path editing (each arm's code/_config.py resolves inputs/outputs relative to the arm folder, overridable by environment variables). Arms: (01) MCF live-cell CHIR99021 time-lapse 3D voxel-Manders colocalization of SEPT9 with microtubules and actin stress fibers; (02) live EB1-dsRed centriole comet tracking during microtubule regrowth after nocodazole washout (nucleation rate, outward velocity, and lifetime on vs off SEPT9 filaments; WT vs S82A/S85A); (03) fixed U2OS 3D voxel-Manders of SEPT9 with microtubules and SEPT9-stress-fiber coincidence; (04) fixed DIV3 hippocampal neuron 2D Pearson colocalization of SEPT9 with acetylated-tubulin, F-actin, and pSer9-GSK3beta by growth-cone vs axon-shaft compartment, plus triple colocalization; and an overlap image-display set that exports binary coincidence-mask TIFFs for figure panels (visualization only). Image preprocessing (Noise2Void2 denoising and 3D Richardson-Lucy deconvolution) was applied to the microscope .nd2 stacks. Large raw/deconvolved image stacks and movies are not included here for size and are deposited separately (Data Availability). Analysis code was developed and executed with the assistance of Claude (Anthropic) under author direction; all parameter choices, analytical decisions, and interpretations were reviewed and verified by the authors."
+}

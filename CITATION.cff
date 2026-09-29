@@ -24,7 +24,7 @@ authors:
 license: MIT
 repository-code: "https://github.com/spiliotislab/sept9-gsk3-phosphoswitch-code"
 version: "1.0.0"
-date-released: "2026-01-01"                              # TODO: set to your release date
+date-released: "2026-09-29"
 # TODO: after minting a Zenodo DOI for the release, add it here:
 # doi: "10.5281/zenodo.XXXXXXX"
 preferred-citation:
