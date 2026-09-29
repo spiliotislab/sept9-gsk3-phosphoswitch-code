@@ -25,8 +25,7 @@ license: MIT
 repository-code: "https://github.com/spiliotislab/sept9-gsk3-phosphoswitch-code"
 version: "1.0.0"
 date-released: "2026-09-29"
-# TODO: after minting a Zenodo DOI for the release, add it here:
-# doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.23046030"   # Zenodo concept DOI (all versions; resolves to latest)
 preferred-citation:
   type: article
   title: "Septin crosstalk with microtubules and actin is regulated by a GSK3-dependent phosphoswitch"

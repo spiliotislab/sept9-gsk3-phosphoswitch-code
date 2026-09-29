@@ -1,5 +1,7 @@
 # Paper code deposit — Septin (SEPT9) crosstalk with microtubules and actin via a GSK3-dependent phosphoswitch
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23046030.svg)](https://doi.org/10.5281/zenodo.23046030)
+
 Custom analysis code for the paper, organized by analysis arm. Each arm has its own `code/`, an arm-level `README.md`, and (where applicable) `data/`. Install once from the shared `requirements.txt`.
 
 ## Arms
